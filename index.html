@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Restaurant Demo Using Bootstrap</title>
+      <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css"/>
+      <!-- Google Fonts CSS -->
+      <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed" rel="stylesheet">  
+      <!-- Font Awesome CSS -->
+      <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <!-- Animate.css -->
+      <link href="css/animate.min.css" type="text/css" rel="stylesheet">
+      <!-- Custom style CSS -->
+      <link href="css/style.css" rel="stylesheet" type="text/css">
+      <!-- JQuery core -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- JQuery custom smooth scrolling script -->
+      <script src="scripts/myJQuery.js"></script>
+  </head>
+  <body>
+      <!-- Header section: includes navbar and main text -->
+      <div class="my_header">
+          <nav class="navbar navbar-default">
+              <div class="container">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#"><img src="images/lg-1.png"></a>
+                  </div>
+                  <div class="collapse navbar-collapse wow fadeInDown" data-wow-delay=".2s" id="myNavbar">
+                      <ul class="nav navbar-nav">
+                          <li class="default"><a href="#my_header" id="home"><i class="fa fa-home"></i>HOME</a></li>
+                          <li><a href="#my_menu" id="menu"><i class="fa fa-cutlery"></i>MENU</a></li>
+                          <li><a href="#my_drinks" id="drinks"><i class="fa fa-glass"></i>DRINKS</a></li>
+                          <li><a href="#my_contact" id="contact"><i class="fa fa-address-book-o"></i>RESERVATION</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+          <div class="container">
+              <div class="row" id="header_text">
+                  <div class="col-sm-12">
+                      <div id="main_center_box">
+                          <h1 class="wow fadeInDown" data-wow-delay=".75s">PACIFIC TAVERN</h1>
+                          <div id="sub_center_box">
+                              <span>
+                                  <div class=" wow fadeInDown left_line" data-wow-delay=".75s"></div>
+                                  <p class = "wow fadeInDown" data-wow-delay=".75s">EAT. DRINK. INSPIRE.</p>
+                                  <div class="wow fadeInDown right_line" data-wow-delay=".75s"></div>
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+       <!-- Header section ends here -->
+      
+       <!-- menu section starts here -->
+      <div class="my_menu" >
+          <div class="container">
+              <div class="row wow fadeIn">
+                      <div class="center-block main_text"><p>MENU</p></div>
+              </div>
+              <div class="snacks_x_salads wow fadeIn">
+                  <div>
+                      <div class="col-sm-12"><p>Snacks x Salads</p></div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Primavera Salad <span class="badge">$8</span></li>
+                              <span>arugula, cherry tomato, shaved almonds, shallot vinaigrette</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Grilled Calamari<span class="badge">$12</span></li>
+                              <span>arugula, cherry tomato, shaved almonds, shallot vinaigrette</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Mac and Cheese<span class="badge">$13</span></li>
+                              <span>cheddar, gruyere, gouda, truffle oil</span>
+                          </ul>
+                      </div>
+                  </div> 
+              </div>
+              <div class="sandwiches wow fadeIn">
+                  <div>
+                      <div class="col-sm-12"><p>Sandwiches</p></div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Alpine<span class="badge">$10</span></li>
+                              <span>fontina, gruyere, truffle oil on multigrain toast</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Reuben<span class="badge">$15</span></li>
+                              <span>pastrami, coleslaw, russian dressing on rye</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Raleigh<span class="badge">$8</span></li>
+                              <span>coleslaw, barbecue sauce, pickles on sesame roll</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Flatiron <span class="badge">$15</span></li>
+                              <span>steak, havarti, fried onions, chipotle mayo on challah</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Milanese <span class="badge">$13</span></li>
+                              <span>fried chicken, lettuce, tomato, mayo on focaccia</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Classic <span class="badge">$13</span></li>
+                              <span>ham, unmelted cheddar, mayo on kaiser roll</span>
+                          </ul>
+                      </div>
+                  </div> 
+              </div>
+              <div class="mains wow fadeIn">
+                  <div>
+                      <div class="col-sm-12"><p>Mains</p></div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Lobster Bolognese <span class="badge">$28</span></li>
+                              <span>linguini, lobster tail, herbs in tomato and garlic broth</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Salmon Steak <span class="badge">$28</span></li>
+                              <span>quinoa, roasted carrots, mustard lemon glaze</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Dry-Aged Rib-Eye <span class="badge">$36</span></li>
+                              <span>grass-fed, with arugula salad, smashed potatoes</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Burger  <span class="badge">$20</span></li>
+                              <span>gruyere, fried onions, special sauce on challah roll</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Braised Lamb  <span class="badge">$25</span></li>
+                              <span>jasmine rice pilaf, roasted almonds, sesame soy reduction</span>
+                          </ul>
+                      </div>
+                  </div> 
+              </div>    
+          </div>
+      </div>
+      <!-- menu section ends here-->
+      
+      <!-- drink section starts here-->
+      <div class="my_drinks">
+          <div class="container">
+              <div class="row">
+                  <div class="center-block main_text wow fadeIn"><p>DRINKS</p></div>
+              </div>
+              <div class="SnacksxSalads wow fadeIn">
+                  <div>
+                      <div class="col-sm-12"><p>Cocktails</p></div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Manhattan <span class="badge">$11</span></li>
+                              <span>rye whisky, sweet vermouth, bitters</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Dark & Stormy <span class="badge">$9</span></li>
+                              <span>black rum, ginger beer, lime</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Old Cuban <span class="badge">$11</span></li>
+                              <span>aged rum, lime juice, bitters, champagne</span>
+                          </ul>
+                      </div>
+                  </div> 
+              </div>
+              <div class="sandwiches wow fadeIn">
+                  <div>
+                      <div class="col-sm-12"><p>Wine</p></div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Sauvignon Blanc  <span class="badge">$18</span></li>
+                              <span>cloudy bay, new zealand, 2012</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Pinot Grigio  <span class="badge">$8</span></li>
+                              <span>corte della torre, veneto, 2012</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Chardonnay   <span class="badge">$13</span></li>
+                              <span>gavilan, monterey, 2012</span>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Pinot Noir   <span class="badge">$13</span></li>
+                              <span>heron, napa, 2011</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Cabernet Sauvignon <span class="badge">$13</span></li>
+                              <span>slingshot, napa, 2010</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Pianrosso   <span class="badge">$14</span></li>
+                              <span>brunello di montacino, toscana, 2003</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Prosecco   <span class="badge">$14</span></li>
+                              <span>bortolotti, brut, veneto, 2010</span>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="beer wow fadeIn">
+                  <div>
+                      <div class="col-sm-12"><p>Beer</p></div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Lagunitas  <span class="badge">$7</span></li>
+                              <span>ipa, california</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">21st Amendment  <span class="badge">$8</span></li>
+                              <span>back in black ipa, san francisco</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Breakside  <span class="badge">$8</span></li>
+                              <span>wanderlust ipa, oregon</span>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Hill Farmstead   <span class="badge">$11</span></li>
+                              <span>edward apa, vermont</span>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Alchemist  <span class="badge">$8</span></li>
+                              <span>heady topper, vermont</span>
+                          </ul>
+                      </div>
+                       <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Hofbräu  <span class="badge">$8</span></li>
+                              <span>dunkel, munich</span>
+                          </ul>
+                       </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Delirium Tremens <span class="badge">$12</span></li>
+                              <span>golden ale, belgium</span>
+                          </ul>
+                      </div>
+                  </div> 
+              </div>
+          </div> 
+      </div>
+      <!-- drinks section ends here-->
+      
+      
+      <!-- res section starts here-->
+      <div class="my_res">
+          <div class="container">
+              <div class="wow fadeIn" id="res_req">
+                  <p class="wow fadeIn" id="res_header">MAKE A RESERVATION</p>
+                  <p class="wow fadeIn" id="open_table">POWERED BY OPEN TABLE</p>
+                 
+                  <div id="wrapper">
+                      <div id="btn">
+                          <a href="https://www.opentable.com/qa48prodakeeooo-reservations-san-francisco?restref=1000" target="_blank"><button class="btn wow fadeIn">Find a Table</button></a>
+                      </div>
+                  </div>
+                 
+              </div>
+          </div>
+      </div>
+      <div class="footer">
+          <div class="container">
+              <div class="row wow fadeIn" id="footer_text">
+                  <div class="col-sm-12">
+                      <div class="col-xs-6 col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Pacific Tavern</li>
+                              <span>100 D'Arblay Street Soho, London W1F</span>
+                          </ul>
+                      </div>
+                      <div class="col-xs-6 col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Hours</li>
+                              <span>Monday: Closed, Tuesday–Sunday: 5pm–2am</span>
+                          </ul>
+                      </div>
+                      <div class="col-xs-12 col-sm-4">
+                          <ul class="list-group">
+                              <li class="list-group-item">Reservations</li>
+                              <span>Call +44 1632 960250 or use Open Table</span>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- res section ends here-->
+      
+          
+      <!-- fixed scroll icon -->
+      <a href="#my_header" id="scroll_top"><i class="fa fa-arrow-circle-up"></i></a>
+      
+       <!-- Particle JS scripts -->
+      <script src="scripts/particles.js"></script>
+      <script src="scripts/app.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+      <!-- WOW.js -->
+      <script src="scripts/wow.min.js"></script>
+      <script>
+          new WOW().init();
+      </script>
+  </body>
+</html>
